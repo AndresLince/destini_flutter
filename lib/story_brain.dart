@@ -33,15 +33,15 @@ class StoryBrain {
         choice2: '')
   ];
 
-  getStory() {
+  String getStory() {
     return _storyData.first.storyTitle;
   }
 
-  getChoice1() {
+  String getChoice1() {
     return _storyData.first.choice1;
   }
 
-  getChoice2() {
+  String getChoice2() {
     return _storyData.first.choice2;
   }
 }
